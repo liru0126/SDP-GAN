@@ -2,4 +2,4 @@
 
 Ru Li, Chi-Hao Wu, Shuaicheng Liu, Jue Wang, Guangfu Wang, Guanghui Liu, Bing Zeng
 
-Official pytroch test code of SDP-GAN. 
+Official pytroch test code for SDP-GAN. 
