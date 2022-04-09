@@ -27,3 +27,7 @@ python3 test.py
 In this project we use (parts of) the implementations of the following works:
 
 * [CartoonGAN](https://github.com/znxlwm/pytorch-CartoonGAN) 
+
+# To do List
+update the pre-trained models
+update the training codes
