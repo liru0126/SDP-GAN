@@ -1,4 +1,4 @@
-# [TIP 2020] SDP-GAN: Saliency Detail Preservation Generative Adversarial Networks for High Perceptual Quality Style Transfer
+SDP-GAN: Saliency Detail Preservation Generative Adversarial Networks for High Perceptual Quality Style Transfer
 
 This is the Pytorch implementation of our TIP2020 paper [SDP-GAN](http://liushuaicheng.org/TIP/SDPGAN/SDPGAN-TIP.pdf).
 
@@ -6,6 +6,20 @@ This is the Pytorch implementation of our TIP2020 paper [SDP-GAN](http://liushua
 
 ```
 python3 test.py
+```
+
+## Citation
+
+```
+@article{li2020sdp-gan,
+  title={SDP-GAN: Saliency Detail Preservation Generative Adversarial Networks for High Perceptual Quality Style Transfer},
+  author={Li, Ru and Wu, Chi-Hao and Liu, Shuaicheng and Wang, Jue and Wang, Guangfu and Liu, Guanghui and Zeng, Bing},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={374--385},
+  year={2020},
+  publisher={IEEE}
+}
 ```
 
 # Acknowledgments
