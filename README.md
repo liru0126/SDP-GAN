@@ -4,7 +4,6 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 
 ![image](./figs/pipeline.png)
 
-
 ## Dependencies
 
 * Python=3.5
@@ -22,6 +21,10 @@ You can download the pre-trained models [here](https://drive.google.com/drive/fo
 ```
 python3 test.py
 ```
+
+## Results
+
+![image](./figs/results.png)
 
 ## Citation
 
