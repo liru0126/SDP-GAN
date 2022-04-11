@@ -33,4 +33,4 @@ In this project we use (parts of) the implementations of the following works:
 
 # To do List
 
-* update the training codes
+* Upload the training codes
