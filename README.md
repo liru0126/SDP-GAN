@@ -51,5 +51,5 @@ We thank the respective authors for open sourcing of their implementations.
 
 # To do List
 
-* Upload pre-trained models with other styles
+* Upload pre-trained models with more styles
 * Upload the training codes
