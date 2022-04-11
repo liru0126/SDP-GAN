@@ -2,6 +2,12 @@
 
 This is the Pytorch implementation of our TIP2020 paper [SDP-GAN](http://liushuaicheng.org/TIP/SDPGAN/SDPGAN-TIP.pdf).
 
+
+## Dependencies
+
+* Pytorch>=1.1.0
+* Other requirements please refer to requirements.txt.
+
 ## Pre-trained models
 
 You can download the pre-trained models [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
