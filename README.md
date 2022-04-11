@@ -48,4 +48,5 @@ In this project we use (parts of) the implementations of the following works:
 
 # To do List
 
+* Upload pre-trained models with other styles
 * Upload the training codes
