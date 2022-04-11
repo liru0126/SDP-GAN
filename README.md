@@ -13,7 +13,7 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 
 ## Pre-trained models
 
-You can download the pre-trained models [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
+The pre-trained models can be downloaded [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
 
 
 ## Testing
