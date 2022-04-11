@@ -4,7 +4,7 @@ This is the Pytorch implementation of our TIP2020 paper [SDP-GAN](http://liushua
 
 ## Pre-trained models
 
-You can download the pre-trained models [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the downloaded models in ./pretrained_models in order to test it.
+You can download the pre-trained models [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
 ## Testing
 
 ```
