@@ -42,9 +42,11 @@ python3 test.py
 
 # Acknowledgments
 
-In this project we use (parts of) the implementations of the following works:
+In this project we use (parts of) the implementation of the following work:
 
 * [CartoonGAN](https://github.com/znxlwm/pytorch-CartoonGAN) 
+
+We thank the respective authors for open sourcing of their implementation.
 
 # To do List
 
