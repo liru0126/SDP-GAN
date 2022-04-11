@@ -2,6 +2,8 @@
 
 This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushuaicheng.org/TIP/SDPGAN/SDPGAN-TIP.pdf).
 
+![image](./figs/pipeline.png)
+
 
 ## Dependencies
 
