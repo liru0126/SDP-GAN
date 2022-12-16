@@ -48,8 +48,3 @@ In this project we use (parts of) the implementations of the following works:
 * [Pytorch-CartoonGAN](https://github.com/znxlwm/pytorch-CartoonGAN) 
 
 We thank the respective authors for open sourcing of their implementations.
-
-# To do List
-
-* Upload pre-trained models with more styles
-* Upload the training codes
