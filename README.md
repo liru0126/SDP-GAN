@@ -28,10 +28,10 @@ The contents of directories are as follows:
 │   └── test_com
 │       └──*.jpg
 └── tgt_data
-│   ├── train
-│   │   └──*.jpg
-│   └── pair
-│       └──*.jpg
+    ├── train
+    │   └──*.jpg
+    └── pair
+        └──*.jpg
 ```
 
 ## Pre-trained models
