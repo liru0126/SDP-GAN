@@ -57,7 +57,7 @@ We provide an example of these four folders:
 
 ![image](./figs/dataset.png)
 
-Please prepare the `train_com`, the `test_com` and the `train` folders before training. The `pair` folder will be generated through the `edge_promoting` function in `train.py`.
+Please prepare the `train_com`, the `test_com` and the `train` folders before training. The `pair` folder will be automatically generated through the `edge_promoting` function in `train.py`.
 
 
 ## Pre-trained models
