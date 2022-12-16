@@ -53,8 +53,9 @@ We provide an example of these four folders:
 
 ![image](./figs/dataset.png)
 
- The salient images are the average of two saliency detection methods: robust background saliency detection (RBD) and minimum barrier salient object
-detection (MBD).
+The salient images are the average of two saliency detection methods:
+* robust background saliency detection (RBD);
+* minimum barrier salient object detection (MBD).
 
 Please prepare the `train_com` folder, the `test_com` folder and the `train` folder before training. The `pair` folder will be generated through the `edge_promoting` function in `train.py`.
 
