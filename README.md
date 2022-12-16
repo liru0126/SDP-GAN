@@ -14,17 +14,17 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 
 Due to the copyright, we do not provide the links of out dataset. The following describes the composition of our dataset.
 
-### Source data
+### Source dataset
 
-The source data is composed of two parts:
+The source dataset is composed of two parts:
 * the source image of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix); 
 * our own collection from movies or from the Internet. 
 
 The CycleGAN dataset includes many landscape pictures with relatively uniform content, so we gathered images from movies or from the Internet that own clear salient objects.
 
-### Target data
+### Target dataset
 
-The target dataset contain six different styles, including Van Gogh, Ukiyo-e, Monet, Miyazaki Hayao, Makoto Shinkai and Mamoru Hosoda, among which the first three datasets originates from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and the following three dataset are our own capture from corresponding movies.
+The target dataset contains six different styles, including Van Gogh, Ukiyo-e, Monet, Miyazaki Hayao, Makoto Shinkai and Mamoru Hosoda, among which the first three styles originate from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and the following three styles are our own capture from corresponding movies.
 
 The contents of directories are as follows:
 
@@ -41,6 +41,14 @@ The contents of directories are as follows:
     └── pair
         └──*.jpg
 ```
+
+* `train_com` is the combination of source training RGB image and corresponding salient image;
+* `test_com` is the combination of source testing RGB image and corresponding salient image;
+* `train` is the target style image;
+* `pair` is the target style image and corresponding blur image.
+
+The following shows an example of these four folders:
+
 
 ## Pre-trained models
 
