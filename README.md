@@ -12,7 +12,7 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 
 ## Data Preparation
 
-Due to the copyright, we do not provide the links of out dataset. The following describes the composition of our dataset.
+Considering the copyright, we do not provide the links of out dataset. The following describes the composition of our dataset.
 
 ### Source dataset
 
@@ -20,13 +20,13 @@ The source dataset is composed of two parts:
 * the source image of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix); 
 * our own collection from movies or from the Internet. 
 
-The CycleGAN dataset includes many landscape pictures with relatively uniform content, so we gathered images from movies or from the Internet that own clear salient objects.
+The CycleGAN dataset includes many landscape pictures with relatively uniform content, so we gather images from movies or from the Internet that own clear salient objects.
 
 ### Target dataset
 
 The target dataset contains six different styles, including Van Gogh, Ukiyo-e, Monet, Miyazaki Hayao, Makoto Shinkai and Mamoru Hosoda, among which the first three styles originate from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and the following three styles are our own capture from corresponding movies.
 
-The contents of directories are as follows:
+### The contents of directories
 
 ```
 ./dataset/
@@ -50,6 +50,12 @@ The contents of directories are as follows:
 The following shows an example of these four folders:
 
 ![image](./figs/dataset.png)
+
+ The salient images are the average of two saliency detection methods: robust background saliency detection (RBD) and minimum barrier salient object
+detection (MBD).
+
+Please prepare the `train_com` folder, the `test_com` folder and the `train` folder before training. The `pair` folder will be generated through the `edge_promoting` function in `train.py`.
+
 
 ## Pre-trained models
 
