@@ -15,6 +15,10 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 
 The pre-trained models can be downloaded [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
 
+## Training
+``` 
+python3 train.py --name your_experiment_name --src_data path/to/source/data --tgt_data path/to/target/data --vgg_model path/to/vgg19/model
+```
 
 ## Testing
 
