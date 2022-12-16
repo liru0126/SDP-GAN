@@ -49,13 +49,13 @@ The target dataset contains six different styles:
 * `train` is the target style image;
 * `pair` is the target style image and corresponding blur image.
 
-We provide an example of these four folders:
-
-![image](./figs/dataset.png)
-
 The salient images are the average of two saliency detection methods:
 * [robust background saliency detection (RBD)](https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhu_Saliency_Optimization_from_2014_CVPR_paper.pdf);
 * [minimum barrier salient object detection (MBD)](https://openaccess.thecvf.com/content_iccv_2015/papers/Zhang_Minimum_Barrier_Salient_ICCV_2015_paper.pdf).
+
+We provide an example of these four folders:
+
+![image](./figs/dataset.png)
 
 Please prepare the `train_com` folder, the `test_com` folder and the `train` folder before training. The `pair` folder will be generated through the `edge_promoting` function in `train.py`.
 
