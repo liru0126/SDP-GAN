@@ -20,11 +20,13 @@ The source dataset is composed of two parts:
 * the source image of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix); 
 * our own collection from movies or from the Internet. 
 
-The CycleGAN dataset includes many landscape pictures with relatively uniform content, so we gather images from movies or from the Internet that own clear salient objects.
+The CycleGAN dataset includes many landscape pictures with relatively uniform content, therefore, we gather images from movies or from the Internet that own clear salient objects.
 
 ### Target dataset
 
-The target dataset contains six different styles, including Van Gogh, Ukiyo-e, Monet, Miyazaki Hayao, Makoto Shinkai and Mamoru Hosoda, among which the first three styles originate from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and the following three styles are our own capture from corresponding movies.
+The target dataset contains six different styles:
+* Van Gogh, Ukiyo-e, Monet styles originate from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix);
+* Miyazaki Hayao, Makoto Shinkai and Mamoru Hosoda styles are captured from corresponding movies.
 
 ### The contents of directories
 
