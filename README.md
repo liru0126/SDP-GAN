@@ -49,7 +49,7 @@ The target dataset contains six different styles:
 * `train` is the target style image;
 * `pair` is the target style image and corresponding blur image.
 
-The following shows an example of these four folders:
+We provide an example of these four folders:
 
 ![image](./figs/dataset.png)
 
