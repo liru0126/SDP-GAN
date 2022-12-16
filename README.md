@@ -49,11 +49,9 @@ The target dataset contains six different styles:
 * `train` is the target style image;
 * `pair` is the combination of target style image and corresponding blur image.
 
-The salient images are the average of two saliency detection methods:
+The salient images are the average of two saliency detection methods ([Pytorch implementation](https://github.com/yhenon/pyimgsaliency)):
 * [robust background saliency detection (RBD)](https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhu_Saliency_Optimization_from_2014_CVPR_paper.pdf);
 * [minimum barrier salient object detection (MBD)](https://openaccess.thecvf.com/content_iccv_2015/papers/Zhang_Minimum_Barrier_Salient_ICCV_2015_paper.pdf).
-
-[Pytorch code](https://github.com/yhenon/pyimgsaliency)
 
 We provide an example of these four folders:
 
