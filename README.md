@@ -49,6 +49,7 @@ The contents of directories are as follows:
 
 The following shows an example of these four folders:
 
+![image](./figs/dataset.png)
 
 ## Pre-trained models
 
