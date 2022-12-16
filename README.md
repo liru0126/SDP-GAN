@@ -10,6 +10,29 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 * Pytorch>=1.1.0
 * Other requirements please refer to requirements.txt.
 
+## Data Preparation
+
+### Source data
+
+The source 
+
+### Target data
+
+The contents of directories are as follows:
+
+```
+./dataset/
+├── src_data
+│   ├── train_com
+│   │   └──*.jpg
+│   └── test_com
+│       └──*.jpg
+└── tgt_data
+│   ├── train
+│   │   └──*.jpg
+│   └── pair
+│       └──*.jpg
+```
 
 ## Pre-trained models
 
