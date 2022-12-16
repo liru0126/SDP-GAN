@@ -24,6 +24,8 @@ The CycleGAN dataset includes many landscape pictures with relatively uniform co
 
 ### Target data
 
+The target dataset contain six different styles, including Van Gogh, Ukiyo-e, Monet, Miyazaki Hayao, Makoto Shinkai and Mamoru Hosoda, among which the first three datasets originates from [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and the following three dataset are our own capture from corresponding movies.
+
 The contents of directories are as follows:
 
 ```
