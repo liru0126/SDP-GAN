@@ -16,7 +16,9 @@ Due to the copyright, we do not provide the links of out dataset. The following 
 
 ### Source data
 
-The source data is composed of two parts: 1) the source image of [CycleGAN]([http://liushuaicheng.org/TIP/SDPGAN/SDPGAN-TIP.pdf](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix); 2) our own collection from movies or from the Internet. 
+The source data is composed of two parts:
+* 1) the source image of [CycleGAN]([http://liushuaicheng.org/TIP/SDPGAN/SDPGAN-TIP.pdf](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix); 
+* 2) our own collection from movies or from the Internet. 
 
 The CycleGAN dataset includes many landscape pictures with relatively uniform content, so we gathered images from movies or from the Internet that own clear salient objects.
 
