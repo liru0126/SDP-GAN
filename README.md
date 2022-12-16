@@ -12,7 +12,7 @@ This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushu
 
 ## Data Preparation
 
-Considering the copyright, we do not provide the links of our dataset. The composition of our datasets are described in the following:
+Considering the copyright, we do not provide the links of our dataset. The composition of our dataset is described in the following:
 
 ### Source dataset
 
