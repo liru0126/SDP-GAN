@@ -47,7 +47,7 @@ The target dataset contains six different styles:
 * `train_com` is the combination of source training RGB image and corresponding salient image;
 * `test_com` is the combination of source testing RGB image and corresponding salient image;
 * `train` is the target style image;
-* `pair` is the target style image and corresponding blur image.
+* `pair` is the combination of target style image and corresponding blur image.
 
 The salient images are the average of two saliency detection methods:
 * [robust background saliency detection (RBD)](https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhu_Saliency_Optimization_from_2014_CVPR_paper.pdf);
