@@ -18,7 +18,7 @@ Considering the copyright, we do not provide the links of our dataset. The compo
 
 The source dataset is composed of two parts:
 * the source image of [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix); 
-* our own collection from movies or from the Internet. 
+* our collection from movies or from the Internet. 
 
 The CycleGAN dataset includes many landscape pictures with relatively uniform content, therefore, we gather images from movies or from the Internet that own clear salient objects.
 
