@@ -62,7 +62,7 @@ Please prepare the `train_com`, the `test_com` and the `train` folders before tr
 
 ## Pre-trained models
 
-The pre-trained models can be downloaded [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
+The pre-trained models can be downloaded [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models to test it.
 
 ## Training
 ``` 
