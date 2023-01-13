@@ -7,6 +7,21 @@ from scipy.misc import imresize
 from torch.autograd import Variable
 
 
+def data_load(path, subfolder, transform, batch_size, shuffle=False, drop_last=True):
+    dset = datasets.ImageFolder(path, transform)
+    ind = dset.class_to_idx[subfolder]
+
+    n = 0
+    for i in range(dset.__len__()):
+        if ind != dset.imgs[n][1]:
+            del dset.imgs[n]
+            n -= 1
+
+        n += 1
+
+    return torch.utils.data.DataLoader(dset, batch_size=batch_size, shuffle=shuffle, drop_last=drop_last)
+
+
 def print_network(net):
     num_params = 0
     for param in net.parameters():
