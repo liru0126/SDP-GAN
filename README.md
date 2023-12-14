@@ -77,7 +77,7 @@ python3 test.py
 
 ## Results
 
-![image](./figs/results.png)
+![video](./supp_videos/videos/video_synthetic/460/video001.mp4)
 
 ## Citation
 
